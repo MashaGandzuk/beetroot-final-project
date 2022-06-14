@@ -1,0 +1,74 @@
+.software-platform {
+  background-image: url("/src/i/bl-shape.png"),
+    linear-gradient(to right, #c12dd1, #6d8cf8);
+  background-size: cover;
+}
+.new-website {
+  text-align: center;
+  &__name {
+    color: $white;
+    font-size: 36px;
+  }
+  &__text {
+    color: $white;
+    font-size: 19px;
+  }
+}
+.btn-box {
+  display: flex;
+  justify-content: center;
+  &__start {
+    text-decoration: none;
+    background: #ff00d6;
+    padding: 10px 20px;
+    border-radius: 50px 0 50px 50px;
+    margin-right: 5px;
+  }
+  &__try {
+    padding: 15px 20px;
+  }
+}
+.start {
+  &__link {
+    text-decoration: none;
+    color: $white;
+    font-weight: 800;
+  }
+  &__power {
+    color: $black;
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: 25px;
+  }
+}
+.try {
+  &__link {
+    text-decoration: none;
+    color: $white;
+    font-weight: 800;
+  }
+  &__free {
+    color: #4ce7f3;
+  }
+}
+.star {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  &__item {
+    color: #f6b91c;
+    font-size: 15px;
+    margin-right: 5px;
+    &__last {
+      margin-right: 0;
+    }
+  }
+}
+.review {
+  color: $white;
+  &__task {
+    color: $black;
+    font-weight: 600;
+  }
+}

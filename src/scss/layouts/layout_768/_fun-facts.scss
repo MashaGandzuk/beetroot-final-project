@@ -1,0 +1,114 @@
+.facts-box {
+  &__name {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  &__description {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.306;
+    &_light {
+      font-weight: 300;
+    }
+  }
+  &_text {
+    font-size: 17px;
+    line-height: 1.647;
+  }
+}
+.facts-img {
+  grid-area: img;
+  min-height: 395px;
+  margin: 40px;
+
+  position: relative;
+  &__1 {
+    position: absolute;
+  }
+  &__2 {
+    position: absolute;
+    top: 108px;
+    left: 0;
+  }
+  &__3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  &__4 {
+    position: absolute;
+    top: -32px;
+    left: 67px;
+    z-index: -1;
+  }
+  &__5 {
+    position: absolute;
+    top: 183px;
+    right: 48px;
+    z-index: -1;
+  }
+}
+.counter-box {
+  margin: 40px 0;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+}
+.counter {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 25px 0;
+  &_integratios {
+    border-bottom: 1px solid #dce0ee;
+  }
+  &_stars {
+    border-left: 1px solid #dce0ee;
+  }
+  &_users {
+    border-left: 1px solid #dce0ee;
+    border-bottom: 1px solid #dce0ee;
+  }
+  &__number {
+    margin-bottom: 10px;
+    &_integratios {
+      color: #7c0dbe;
+      opacity: 0.7;
+    }
+    &_users {
+      color: #ff00d6;
+      opacity: 0.7;
+    }
+    &_downloads {
+      color: #4ce7f3;
+      opacity: 0.7;
+    }
+    &_stars {
+      color: #009cff;
+      opacity: 0.7;
+    }
+  }
+  &__text {
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 100px;
+    color: #555555;
+  }
+}
+// .counter-box:after {
+//   content: "";
+//   background: url("/src/i/fns1.png") no-repeat;
+//   z-index: -1;
+//   width: 350px;
+//   height: 300px;
+//   top: 57px;
+//   right: -15px;
+//   position: absolute;
+//   display: block;
+// }
+.gif-box {
+  margin: 40px 0;
+}

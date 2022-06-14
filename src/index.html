@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/b9a3f63a1d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="navbar" class="navbar">
+      <div class="navbar-container">
+        <div class="site-logo">
+          <a href="#"><img src="i/logo1.png" alt="" /></a>
+        </div>
+        <nav class="desktop-menu-nav">
+          <ul class="menu-nav-desktop">
+            <li class="menu-nav-desktop__item">
+              <a class="menu-nav-desktop__link" href="#" target="_blank"
+                >Demos</a
+              >
+            </li>
+            <li class="menu-nav-desktop__item">
+              <a class="menu-nav-desktop__link" href="#" target="_blank"
+                >About</a
+              >
+            </li>
+            <li class="menu-nav-desktop__item">
+              <a class="menu-nav-desktop__link" href="#" target="_blank"
+                >Team</a
+              >
+            </li>
+            <li class="menu-nav-desktop__item">
+              <a class="menu-nav-desktop__link" href="#" target="_blank"
+                >Service</a
+              >
+            </li>
+            <li class="menu-nav-desktop__item">
+              <a class="menu-nav-desktop__link" href="#" target="_blank"
+                >Contact</a
+              >
+            </li>
+            <li class="menu-nav-desktop__item">
+              <a class="menu-nav-desktop__link" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sign-in">
+          <a class="sign-in__btn" href="#">Sign In</a>
+        </div>
+        <div class="social-box">
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#"
+                ><i class="fab fa-behance"></i
+              ></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="mobile-menu-button mobile-menu-toggler">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <!-- mobile-menu -->
+
+      <div class="dark-overlay"></div>
+      <div id="mobile-menu" class="mobile-menu">
+        <div class="mobile-menu-wrap">
+          <div class="mobile-menu-content">
+            <div class="mobile-menu-close mobile-menu-toggler">
+              <i class="far fa-times-circle"></i>
+            </div>
+            <div class="brand-logo">
+              <img src="i/f-logo.png" alt="" />
+            </div>
+            <nav class="mobile-main-navigation">
+              <ul id="main-nav" class="menu-nav">
+                <li class="menu-nav__item">
+                  <a class="menu-nav__link" href="#">Demos</a>
+                </li>
+                <li class="menu-nav__item">
+                  <a class="menu-nav__link" href="#" target="_blank">About</a>
+                </li>
+                <li class="menu-nav__item">
+                  <a class="menu-nav__link" href="#" target="_blank">Team</a>
+                </li>
+                <li class="menu-nav__item">
+                  <a class="menu-nav__link" href="#" target="_blank">Service</a>
+                </li>
+                <li class="menu-nav__item">
+                  <a class="menu-nav__link" href="#" target="_blank">Contact</a>
+                </li>
+                <li class="menu-nav__item">
+                  <a class="menu-nav__link" href="#">Blog</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- /mobile-menu -->
+    </header>
+
+    <main>
+      <section class="software-platform">
+        <div class="container">
+          <div class="new-website-row">
+            <div class="new-website">
+              <h1 class="new-website__name">The new website for app landing</h1>
+              <p class="new-website__text">
+                SaaSio is the best software platform for running an internet
+                business.
+              </p>
+              <div class="btn-box">
+                <div class="btn-box__start start">
+                  <a class="start__link" href="#"
+                    ><i class="start__power fas fa-power-off"></i>Start Now</a
+                  >
+                </div>
+                <div class="btn-box__try try">
+                  <a class="try__link" href=""
+                    >or <span class="try__free">try it for free</span></a
+                  >
+                </div>
+              </div>
+              <div class="reviews-box">
+                <div class="star-box">
+                  <ul class="star">
+                    <li class="star__item"><i class="fas fa-star"></i></li>
+                    <li class="star__item"><i class="fas fa-star"></i></li>
+                    <li class="star__item"><i class="fas fa-star"></i></li>
+                    <li class="star__item"><i class="fas fa-star"></i></li>
+                    <li class="star__item star__item_last">
+                      <i class="fas fa-star"></i>
+                    </li>
+                  </ul>
+                </div>
+                <div class="review">
+                  (based on
+                  <span class="review__task">1,256 task</span> reviews)
+                </div>
+              </div>
+            </div>
+            <div class="img-box">
+              <img src="i/bm1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="wave-wraper">
+          <div class="wave-top"></div>
+          <div class="wave-middle"></div>
+          <div class="wave-bottom"></div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <div class="services-box">
+            <div class="services-box__text">Fetaured services</div>
+            <h2 class="services-box__name">
+              Why choose
+              <span class="services-box__name_light">our software?</span>
+            </h2>
+            <p class="services-box__description">
+              As a SAAS web crawler expert, I help organizations adjust to the
+              expanding significance of internet promoting.
+            </p>
+            <div class="services-list-wrapper">
+              <div class="services-list">
+                <div class="services-list__item">
+                  <div class="services-list__img-box">
+                    <img src="i/branding.png" alt="" />
+                  </div>
+                  <h3 class="services-list__name">Branding</h3>
+                  <p class="services-list__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </p>
+                </div>
+              </div>
+              <div class="services-list">
+                <div class="services-list__item">
+                  <div class="services-list__img-box">
+                    <img src="i/web-design.png" alt="" />
+                  </div>
+                  <h3 class="services-list__name">Web Design</h3>
+                  <p class="services-list__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </p>
+                </div>
+              </div>
+              <div class="services-list">
+                <div class="services-list__item">
+                  <div class="services-list__img-box">
+                    <img src="i/vector.png" alt="" />
+                  </div>
+                  <h3 class="services-list__name">UI/UX Design</h3>
+                  <p class="services-list__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </p>
+                </div>
+              </div>
+              <div class="services-list">
+                <div class="services-list__item">
+                  <div class="services-list__img-box">
+                    <img src="i/web-development.png" alt="" />
+                  </div>
+                  <h3 class="services-list__name">Web Development</h3>
+                  <p class="services-list__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container">
+          <div class="grid-container">
+            <div class="benefits-row">
+              <div class="benefits-box benefits-box_bug">
+                <div class="benefits-box__img">
+                  <img src="i/bug.png" alt="" />
+                </div>
+                <h3 class="benefits-box__name">Bug free</h3>
+                <div class="benefits-box__text">
+                  As a app web crawler expert, I help organizations adjust to
+                  the expanding significance of internet promoting.
+                </div>
+              </div>
+              <div class="benefits-box benefits-box_organized">
+                <div class="benefits-box__img">
+                  <img src="i/content.png" alt="" />
+                </div>
+                <h3 class="benefits-box__name">Well Organized</h3>
+                <div class="benefits-box__text">
+                  As a app web crawler expert, I help organizations adjust to
+                  the expanding significance of internet promoting.
+                </div>
+              </div>
+              <div class="benefits-box benefits-box_coding">
+                <div class="benefits-box__img">
+                  <img src="i/coding.png" alt="" />
+                </div>
+                <h3 class="benefits-box__name">Clean coding</h3>
+                <div class="benefits-box__text">
+                  As a app web crawler expert, I help organizations adjust to
+                  the expanding significance of internet promoting.
+                </div>
+              </div>
+            </div>
+            <div class="slider-box">
+              <div class="slider">
+                <div class="slide">
+                  <img src="i/slider-01.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="you-choose"><h2>Why will you choose our app?</h2></div>
+          </div>
+          <div class="s-shape-bg1">
+            <img src="i/s-shape3.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="fun-facts">
+        <div class="container grid-facts">
+          <div class="facts-img">
+            <div class="facts-img__1">
+              <img src="i/fmu1.png" alt="" />
+            </div>
+            <div class="facts-img__2">
+              <img src="i/fmu2.png" alt="" />
+            </div>
+            <div class="facts-img__3">
+              <img src="i/fmu3.png" alt="" />
+            </div>
+            <div class="facts-img__4">
+              <img src="i/fc1.png" alt="" />
+            </div>
+            <div class="facts-img__5">
+              <img src="i/fc2.png" alt="" />
+            </div>
+          </div>
+          <div class="facts-box">
+            <div class="facts-box__name">Fun facts</div>
+            <h2 class="facts-box__description">
+              We have some awesome
+              <span class="facts-box__description_light"
+                >funfacts for clients.</span
+              >
+            </h2>
+            <p class="facts-box__text">
+              As a app web crawler expert, I help organizations adjust to the
+              expanding significance of internet promoting.
+            </p>
+          </div>
+          <div class="counter-box">
+            <div class="counter counter_integratios">
+              <div class="counter__number counter__number_integratios">20+</div>
+              <div class="counter__text">Awesome Integratios</div>
+            </div>
+            <div class="counter counter_users">
+              <div class="counter__number counter__number_users">2000+</div>
+              <div class="counter__text">Active users</div>
+            </div>
+            <div class="counter counter_downloads">
+              <div class="counter__number counter__number_downloads">5000+</div>
+              <div class="counter__text">Downloads done</div>
+            </div>
+            <div class="counter counter_stars">
+              <div class="counter__number counter__number_stars">2500+</div>
+              <div class="counter__text">5 stars ratings</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="how-work">
+        <div class="how-work-bg-shape"><img src="i/hws.png" alt="" /></div>
+        <div class="container">
+          <div class="how-work-box">
+            <div class="scroller-grid">
+              <div class="how-work-box__name">How this app is working?</div>
+              <h2 class="how-work-box__text">
+                This app is working by
+                <span class="how-work-box__text_light">some steps!</span>
+              </h2>
+              <div class="scroller">
+                <div class="scroller-item">
+                  <span class="scroller-item__num">1</span>
+                  <div class="scroller-box">
+                    <div class="scroller-box__img">
+                      <img src="i/profile.png" alt="" />
+                    </div>
+                    <h3 class="scroller-box__name">Make a profile</h3>
+                    <div class="scroller-box__description">
+                      As a app web crawler expert, I help organizations
+                      adjusting.
+                    </div>
+                  </div>
+                </div>
+                <div class="scroller-item">
+                  <span class="scroller-item__num">2</span>
+                  <div class="scroller-box">
+                    <div class="scroller-box__img">
+                      <img src="i/download.png" alt="" />
+                    </div>
+                    <h3 class="scroller-box__name">Download it for Free</h3>
+                    <div class="scroller-box__description">
+                      As a app web crawler expert, I help organizations
+                      adjusting.
+                    </div>
+                  </div>
+                </div>
+                <div class="scroller-item">
+                  <span class="scroller-item__num">3</span>
+                  <div class="scroller-box">
+                    <div class="scroller-box__img">
+                      <img src="i/input.png" alt="" />
+                    </div>
+                    <h3 class="scroller-box__name">Input Identity</h3>
+                    <div class="scroller-box__description">
+                      As a app web crawler expert, I help organizations
+                      adjusting.
+                    </div>
+                  </div>
+                </div>
+                <div class="scroller-item">
+                  <span class="scroller-item__num">4</span>
+                  <div class="scroller-box">
+                    <div class="scroller-box__img">
+                      <img src="i/write.png" alt="" />
+                    </div>
+                    <h3 class="scroller-box__name">Write Details</h3>
+                    <div class="scroller-box__description">
+                      As a app web crawler expert, I help organizations
+                      adjusting.
+                    </div>
+                  </div>
+                </div>
+                <div class="scroller-item">
+                  <span class="scroller-item__num">5</span>
+                  <div class="scroller-box">
+                    <div class="scroller-box__img">
+                      <img src="i/use.png" alt="" />
+                    </div>
+                    <h3 class="scroller-box__name">Now Use It</h3>
+                    <div class="scroller-box__description">
+                      As a app web crawler expert, I help organizations
+                      adjusting.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gif-box">
+              <img src="i/hw.gif" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="app-download">
+        <div class="container">
+          <div class="grid-download">
+            <div class="download-img">
+              <img src="i/amu1.png" alt="" />
+            </div>
+            <div class="app-download-box">
+              <div class="app-download-box__name">App Download</div>
+              <h2 class="facts-box__description">
+                This app is available for
+                <span class="app-download-box__description_light"
+                  >your smart phone.</span
+                >
+              </h2>
+              <p class="app-download-box__text">
+                As a SAAS web crawler expert, I help organizations adjust to the
+                expanding significance of internet promoting.
+              </p>
+              <div class="app-download-btn">
+                <div
+                  class="app-download-btn__item app-download-btn__item_google"
+                >
+                  <a href="app-download-btn__link"
+                    ><img src="i/btn1.png" alt=""
+                  /></a>
+                </div>
+                <div
+                  class="app-download-btn__item app-download-btn__item_apple"
+                >
+                  <a href="app-download-btn__link"
+                    ><img src="i/btn2.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="learn-more">
+                <div class="learn-more__img">
+                  <img src="i/app.png" alt="" />
+                </div>
+                <div class="learn-more__text">
+                  Are you interested for this app?
+                </div>
+                <div class="learn-more__item">
+                  Learn More<i class="learn-more__icon fas fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team-carousel-box">
+        <div class="container">
+          <div class="screenshots">
+            <div class="screenshots__name">Expert Team</div>
+            <h2 class="screenshots__description">
+              Our Expertise
+              <span class="screenshots__description_light">Team</span>
+            </h2>
+            <p class="screenshots__text">
+              As a SAAS web crawler expert, I help organizations adjust to the
+              expanding significance of internet promoting.
+            </p>
+          </div>
+          <div id="team-slider" class="team-slider-wraper">
+            <div class="team-carousel-wrapper">
+              <div class="team-carousel">
+                <div class="team-carousel__item">
+                  <div class="slider-team-img">
+                    <div class="slider-img-box">
+                      <div class="slider-img-box__photo">
+                        <img src="i/tm1.png" alt="" />
+                      </div>
+                      <span class="slider-img-box__shape-bg1"
+                        ><img src="i/msbg1.png" alt=""
+                      /></span>
+                      <span class="slider-img-box__shape-bg2"
+                        ><img src="i/msbg2.png" alt=""
+                      /></span>
+                    </div>
+                    <div class="slider-team-img__social team-social">
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i
+                            class="team-social__facebook fab fa-facebook-f"
+                          ></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__behance fab fa-behance"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__linkedin fab fa-linkedin"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__twitter fab fa-twitter"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-team-text">
+                    <h3 class="slider-team-text__name">Staum Clowd</h3>
+                    <p class="slider-team-text__position">Android Developer</p>
+                  </div>
+                </div>
+                <div class="team-carousel__item">
+                  <div class="slider-team-img">
+                    <div class="slider-img-box">
+                      <div class="slider-img-box__photo">
+                        <img src="i/tm2.png" alt="" />
+                      </div>
+                      <span class="slider-img-box__shape-bg1"
+                        ><img src="i/msbg1.png" alt=""
+                      /></span>
+                      <span class="slider-img-box__shape-bg2"
+                        ><img src="i/msbg2.png" alt=""
+                      /></span>
+                    </div>
+                    <div class="slider-team-img__social team-social">
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i
+                            class="team-social__facebook fab fa-facebook-f"
+                          ></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__behance fab fa-behance"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__linkedin fab fa-linkedin"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__twitter fab fa-twitter"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-team-text">
+                    <h3 class="slider-team-text__name">Dave Allippa</h3>
+                    <p class="slider-team-text__position">iOS Developer</p>
+                  </div>
+                </div>
+                <div class="team-carousel__item">
+                  <div class="slider-team-img">
+                    <div class="slider-img-box">
+                      <div class="slider-img-box__photo">
+                        <img src="i/tm3.png" alt="" />
+                      </div>
+                      <span class="slider-img-box__shape-bg1"
+                        ><img src="i/msbg1.png" alt=""
+                      /></span>
+                      <span class="slider-img-box__shape-bg2"
+                        ><img src="i/msbg2.png" alt=""
+                      /></span>
+                    </div>
+                    <div class="slider-team-img__social team-social">
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i
+                            class="team-social__facebook fab fa-facebook-f"
+                          ></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__behance fab fa-behance"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__linkedin fab fa-linkedin"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__twitter fab fa-twitter"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-team-text">
+                    <h3 class="slider-team-text__name">Mark Ateer</h3>
+                    <p class="slider-team-text__position">Windows Developer</p>
+                  </div>
+                </div>
+                <div class="team-carousel__item">
+                  <div class="slider-team-img">
+                    <div class="slider-img-box">
+                      <div class="slider-img-box__photo">
+                        <img src="i/tm1.png" alt="" />
+                      </div>
+                      <span class="slider-img-box__shape-bg1"
+                        ><img src="i/msbg1.png" alt=""
+                      /></span>
+                      <span class="slider-img-box__shape-bg2"
+                        ><img src="i/msbg2.png" alt=""
+                      /></span>
+                    </div>
+                    <div class="slider-team-img__social team-social">
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i
+                            class="team-social__facebook fab fa-facebook-f"
+                          ></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__behance fab fa-behance"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__linkedin fab fa-linkedin"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__twitter fab fa-twitter"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-team-text">
+                    <h3 class="slider-team-text__name">Anita Bath</h3>
+                    <p class="slider-team-text__position">Android Developer</p>
+                  </div>
+                </div>
+                <div class="team-carousel__item">
+                  <div class="slider-team-img">
+                    <div class="slider-img-box">
+                      <div class="slider-img-box__photo">
+                        <img src="i/tm2.png" alt="" />
+                      </div>
+                      <span class="slider-img-box__shape-bg1"
+                        ><img src="i/msbg1.png" alt=""
+                      /></span>
+                      <span class="slider-img-box__shape-bg2"
+                        ><img src="i/msbg2.png" alt=""
+                      /></span>
+                    </div>
+                    <div class="slider-team-img__social team-social">
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i
+                            class="team-social__facebook fab fa-facebook-f"
+                          ></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__behance fab fa-behance"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__linkedin fab fa-linkedin"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__twitter fab fa-twitter"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-team-text">
+                    <h3 class="slider-team-text__name">Bea Mine</h3>
+                    <p class="slider-team-text__position">iOS Developer</p>
+                  </div>
+                </div>
+                <div class="team-carousel__item">
+                  <div class="slider-team-img">
+                    <div class="slider-img-box">
+                      <div class="slider-img-box__photo">
+                        <img src="i/tm3.png" alt="" />
+                      </div>
+                      <span class="slider-img-box__shape-bg1"
+                        ><img src="i/msbg1.png" alt=""
+                      /></span>
+                      <span class="slider-img-box__shape-bg2"
+                        ><img src="i/msbg2.png" alt=""
+                      /></span>
+                    </div>
+                    <div class="slider-team-img__social team-social">
+                      <div class="team-social__item team-social__item_facebook">
+                        <a href="#"
+                          ><i
+                            class="team-social__facebook fab fa-facebook-f"
+                          ></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__behance fab fa-behance"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__linkedin fab fa-linkedin"></i
+                        ></a>
+                      </div>
+                      <div class="team-social__item">
+                        <a href="#"
+                          ><i class="team-social__twitter fab fa-twitter"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-team-text">
+                    <h3 class="slider-team-text__name">Skye Blue</h3>
+                    <p class="slider-team-text__position">indows Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-team-controls">
+              <div class="prev">
+                <i class="fas fa-angle-left"></i>
+              </div>
+              <div class="next">
+                <i class="fas fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="accordion-questions">
+        <div class="container">
+          <div class="accordion-shapes">
+            <div class="accordion-title">
+              <div class="accordion-title__name">
+                Frequently asked Questions
+              </div>
+              <h2 class="accordion-title__description">
+                Learn about features
+                <span class="accordion-title__description_light"
+                  >from FAQ!</span
+                >
+              </h2>
+              <p class="accordion-title__text">
+                As a SAAS web crawler expert, I help organizations adjust to the
+                expanding significance of internet promoting.
+              </p>
+            </div>
+            <div class="accordion">
+              <div class="accordion__item">
+                <div class="accordion__title">
+                  <div class="accordion__arrow">
+                    <span class="accordion__arrow-item">+</span>
+                  </div>
+                  <span class="accordion__title-text"
+                    >What should I include in App?</span
+                  >
+                </div>
+                <div class="accordion__content">
+                  Lorem ipsum dolor sit amet consecte tur adipiscing elit sed
+                  <a href="#">eiusmod tempor incididunt</a> ut labore. In order
+                  to design a mobile app that is going to be module downloaded.
+                </div>
+              </div>
+              <div class="accordion__item">
+                <div class="accordion__title">
+                  <div class="accordion__arrow">
+                    <span class="accordion__arrow_item">+</span>
+                  </div>
+                  <span class="accordion__title-text"
+                    >How does the Moodle app work?</span
+                  >
+                </div>
+                <div class="accordion__content">
+                  Lorem ipsum dolor sit amet consecte tur adipiscing elit sed
+                  <a href="#">eiusmod tempor incididunt</a> ut labore. In order
+                  to design a mobile app that is going to be module downloaded.
+                </div>
+              </div>
+              <div class="accordion__item">
+                <div class="accordion__title">
+                  <div class="accordion__arrow">
+                    <span class="accordion__arrow_item">+</span>
+                  </div>
+                  <span class="accordion__title-text"
+                    >Can users choose to install the app?</span
+                  >
+                </div>
+                <div class="accordion__content">
+                  Lorem ipsum dolor sit amet consecte tur adipiscing elit sed
+                  <a href="#">eiusmod tempor incididunt</a> ut labore. In order
+                  to design a mobile app that is going to be module downloaded.
+                </div>
+              </div>
+              <div class="accordion__item">
+                <div class="accordion__title">
+                  <div class="accordion__arrow">
+                    <span class="accordion__arrow_item">+</span>
+                  </div>
+                  <span class="accordion__title-text">
+                    How do I disable installed apps?</span
+                  >
+                </div>
+                <div class="accordion__content">
+                  Lorem ipsum dolor sit amet consecte tur adipiscing elit sed
+                  <a href="#">eiusmod tempor incididunt</a> ut labore. In order
+                  to design a mobile app that is going to be module downloaded.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-questions__shape1">
+            <img src="i/fq-shape1.png" alt="" />
+          </div>
+          <div class="accordion-questions__shape2">
+            <img src="i/fq-shape2.png" alt="" />
+          </div>
+          <div class="accordion-questions__shape3">
+            <img src="i/fq-shape3.png" alt="" />
+          </div>
+          <div class="accordion-questions__shape4">
+            <img src="i/fq-shape4.png" alt="" />
+          </div>
+          <div class="accordion-questions__shape5">
+            <img src="i/fq-shape5.png" alt="" />
+          </div>
+          <div class="accordion-questions__shape6">
+            <img src="i/fq-shape6.png" alt="" />
+          </div>
+          <div class="accordion-questions__shape8">
+            <img src="i/fq-shape8.png" alt="" />
+          </div>
+          <div class="accordion-questions__shape7">
+            <img
+              class="accordion-questions__img"
+              src="i/fq-shape7.png"
+              alt=""
+            />
+            <img
+              class="accordion-questions__img"
+              src="i/fq-shape7.png"
+              alt=""
+            />
+            <img
+              class="accordion-questions__img"
+              src="i/fq-shape7.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="app-screenshots">
+        <div class="container">
+          <div class="screenshots">
+            <div class="screenshots__name">App Download</div>
+            <h2 class="screenshots__description">
+              App screenshots
+              <span class="screenshots__description_light">know properly.</span>
+            </h2>
+            <p class="screenshots__text">
+              As a SAAS web crawler expert, I help organizations adjust to the
+              expanding significance of internet promoting.
+            </p>
+          </div>
+          <div class="screens-carousel swiper">
+            <div class="screens-carousel__mobile-image"></div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide_1"></div>
+              <div class="swiper-slide swiper-slide_2"></div>
+              <div class="swiper-slide swiper-slide_3"></div>
+              <div class="swiper-slide swiper-slide_4"></div>
+              <div class="swiper-slide swiper-slide_5"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <!--  JavaScript here -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

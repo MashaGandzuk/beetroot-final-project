@@ -1,0 +1,35 @@
+.navbar {
+  .navbar-container {
+    grid-template-columns: 200px auto 140px 180px;
+  }
+}
+.desktop-menu-nav,
+.social-box {
+  display: block;
+}
+.mobile-menu-button {
+  display: none;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  &__link {
+    color: $white;
+    margin: 10px;
+  }
+}
+.menu-nav-desktop {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  &__link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: $white;
+  }
+}

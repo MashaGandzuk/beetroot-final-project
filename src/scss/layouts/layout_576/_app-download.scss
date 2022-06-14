@@ -1,0 +1,64 @@
+.app-download {
+  background: url(/src/i/appbg1.png) no-repeat;
+  background-size: cover;
+}
+.app-download-box {
+  &__img {
+    margin: 40px 0;
+  }
+  &__name {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  &__description {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.306;
+    &_light {
+      font-weight: 300;
+    }
+  }
+  &_text {
+    font-size: 17px;
+    line-height: 1.647;
+  }
+}
+.app-download-btn {
+  margin: 30px 0;
+  &__item {
+    &_google {
+      margin-bottom: 10px;
+    }
+  }
+}
+.learn-more {
+  display: grid;
+  grid-template-areas:
+    "20px img text 10px"
+    "20px img link 10px";
+  &__img {
+    grid-area: img;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 100%;
+    overflow: hidden;
+    background: #ffa800;
+    box-shadow: -0.707px 0.707px 10px 0px rgba(43, 1, 68, 0.1);
+  }
+  &__text {
+    grid-area: text;
+    font-size: 15px;
+  }
+  &__item {
+    grid-area: link;
+    color: #0090ff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  &__icon {
+    margin-left: 5px;
+  }
+}

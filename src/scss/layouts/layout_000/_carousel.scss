@@ -1,0 +1,50 @@
+.screens-carousel {
+  position: relative;
+  margin: 0 auto;
+  &__mobile-image {
+    background: url("/src/i/mobile-1.png") no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: 650px;
+    left: calc(50% + 0.5px);
+    position: absolute;
+    top: 24px;
+    transform: translateX(-50%);
+    width: 301px;
+    z-index: 2;
+    border-radius: 40px;
+    pointer-events: none;
+  }
+  .swiper-wrapper {
+    height: 630px;
+    width: 320px;
+    padding: 30px 0 40px;
+  }
+  .swiper-slide {
+    box-shadow: -7px 10px 33px -23px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-color: white;
+    &-prev,
+    &-next {
+      box-shadow: 9px 10px 33px -23px rgba(0, 0, 0, 0.75);
+    }
+    &-active {
+      border-radius: 35px;
+    }
+    &_1 {
+      background-image: url("/src/i/screenshot01.png");
+    }
+    &_2 {
+      background-image: url("/src/i/screenshot02.png");
+    }
+    &_3 {
+      background-image: url("/src/i/screenshot03.png");
+    }
+    &_4 {
+      background-image: url("/src/i/screenshot04.png");
+    }
+    &_5 {
+      background-image: url("/src/i/screenshot05.png");
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.benefits {
+  background: #eceef6;
+  position: relative;
+}
+.benefits-row {
+  grid-area: benefits;
+  z-index: 1;
+}
+.benefits-box {
+  display: grid;
+  grid-template-areas:
+    "name img"
+    "text img";
+  margin-bottom: 20px;
+
+  &__img {
+    margin-top: 1.7rem;
+    grid-area: img;
+    display: flex;
+    width: 52px;
+    height: 52px;
+    padding: 15px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background: #e9ebf7;
+    box-shadow: -0.707px 0.707px 10px 0px rgba(43, 1, 68, 0.1);
+  }
+  &__name {
+    text-align: right;
+    grid-area: name;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+  }
+  &__text {
+    text-align: right;
+    grid-area: text;
+    color: $black;
+    overflow: hidden;
+    line-height: 1.647;
+    margin-right: 30px;
+  }
+}

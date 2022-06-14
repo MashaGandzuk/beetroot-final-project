@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../layout_000/accordion-questions.scss"
+    ],
+    "names": [],
+    "file": "accordion-questions.css"
+}

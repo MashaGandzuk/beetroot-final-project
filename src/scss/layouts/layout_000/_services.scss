@@ -1,0 +1,80 @@
+.services {
+  background: url("/src/i/f-shape1.png") no-repeat;
+}
+.services-box {
+  text-align: center;
+  &__text {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+  }
+  &__name {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.306;
+    &_light {
+      font-weight: 300;
+    }
+  }
+  &__description {
+    font-size: 17px;
+    line-height: 1.647;
+  }
+}
+.services-list {
+  position: relative;
+  margin-bottom: 47px;
+  &__item {
+    border-radius: 20px;
+    padding: 40px 30px 53px;
+    background-color: #e9ebf7;
+    transition: all 0.3s;
+    box-shadow: none;
+  }
+  &__img-box {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    background: $white;
+    width: 47px;
+    height: 47px;
+    border-radius: 25px;
+    box-shadow: -0.707px 0.707px 10px 0px rgba(43, 1, 68, 0.1);
+  }
+  &__name {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 1.447;
+  }
+}
+.services-list::after {
+  content: "+";
+  display: block;
+  position: absolute;
+  background: #4ce7f2;
+  font-size: 30px;
+  font-weight: 800;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 100%;
+  bottom: 0;
+  opacity: 0;
+  right: 50%;
+  transform: translateX(50%);
+  transition: all 0.3s;
+}
+.services-list:hover {
+  .services-list__item {
+    background: $white;
+    box-shadow: 0px 25px 38px 0px rgba(43, 1, 68, 0.17);
+  }
+  &::after {
+    opacity: 1;
+    bottom: -25px;
+  }
+}
